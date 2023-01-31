@@ -9,13 +9,15 @@ only change your course specified account password.
 - First, log in one of the computers in the CSE lab.
 - Then find and open Visual Studio Code. It should look like this:
 ![image](https://user-images.githubusercontent.com/122485613/215628578-25c2a38b-2210-4b02-8a23-4275250d8208.png)
+
 ## Step 3: Remote Login
 - Now open a terminal in Visual Studio Code and type the command `ssh cs15lwi23xxx@ieng6.ucsd.edu` using your own 
 CSE15L account.
 - A few messages will appear and at the very end, it will ask `Are you sure you want to continue connecting (yes/no/[fingerprint])?` in where 
 you will type `yes` in the command window.
 - Then you have successfully login and your screen should look like this:
-![image](https://user-images.githubusercontent.com/122485613/215628715-0512d542-597d-4f8b-8c2a-87a0758c781d.png)
+![image](https://user-images.githubusercontent.com/122485613/215643030-1098ad6f-b08d-4098-82a1-3eac2e8ac9a7.png)
+
 ## Step 4: Testing Commands
 - Test out the some of commands such as `pwd`, `mkdir`, `ls`, and `cd` and see what each does.
 - You should see that:
