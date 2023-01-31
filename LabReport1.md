@@ -6,11 +6,11 @@
 only change your course specified account password.
 - The new password could take up to 15 minutes to set in.
 ## Step 2: VScode
-- Log in one of the computers in the CSE lab.
-- Open Visual Studio Code. It should look like this:
+- First, log in one of the computers in the CSE lab.
+- Then find and open Visual Studio Code. It should look like this:
 ![image](https://user-images.githubusercontent.com/122485613/215628715-0512d542-597d-4f8b-8c2a-87a0758c781d.png)
 ## Step 3: Remote Login
-- Open a terminal in Visual Studio Code and type the command `ssh cs15lwi23xxx@ieng6.ucsd.edu` using your own 
+- Now open a terminal in Visual Studio Code and type the command `ssh cs15lwi23xxx@ieng6.ucsd.edu` using your own 
 CSE15L account.
 - A few messages will appear and at the very end, it will ask `Are you sure you want to continue connecting (yes/no/[fingerprint])?` in where 
 you will type `yes` in the command window.
