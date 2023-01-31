@@ -3,7 +3,8 @@
 
 ## Part 2:
 Before 
-`static double averageWithoutLowest(double[] arr) {
+```
+static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
     for(double num: arr) {
@@ -14,7 +15,8 @@ Before
       if(num != lowest) { sum += num; }
     }
     return sum / (arr.length - 1);
-  }`
+  }
+  ```
   
 After:
 `static double averageWithoutLowest(double[] arr) {
