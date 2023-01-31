@@ -8,7 +8,7 @@ only change your course specified account password.
 ## Step 2: VScode
 - Log in one of the computers in the CSE lab.
 - Open Visual Studio Code. It should look like this:
-![Image]([IENG6.pdf])
+![Image](IENG6.pdf)
 ## Step 3: Remote Login
 - Open a terminal in Visual Studio Code and type the command `ssh cs15lwi23xxx@ieng6.ucsd.edu` using your own 
 CSE15L account.
