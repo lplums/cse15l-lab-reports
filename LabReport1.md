@@ -18,3 +18,5 @@ you will type `yes` in the command window.
 ![image](https://user-images.githubusercontent.com/122485613/215628715-0512d542-597d-4f8b-8c2a-87a0758c781d.png)
 ## Step 4: Testing Commands
 - Test out the some of commands such as `cd`, `ls`, `mkdir`, and `cp` and see what each does.
+- You should see that:
+    * `cd` 
