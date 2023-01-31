@@ -5,6 +5,7 @@
 - Before you create a new password, change the **Change MyTritonLink** to **no** so that it will 
 only change your course specified account password.
 - The new password could take up to 15 minutes to set in.
+- 
 ## Step 2: VScode
 - First, log in one of the computers in the CSE lab.
 - Then find and open Visual Studio Code. It should look like this:
