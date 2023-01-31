@@ -24,4 +24,5 @@ you will type `yes` in the command window.
     * `ls [path]` stands for "list" and prints out all the files and folders in the given path. (If [path] is empty, then it prints
     from the current directory.)
     * `cd [path]` stands for "Change Directory" and is used to transiton through directories. (Bonus: If [path] is `..` then it will
-    change the to the previous directory and if [path] is `~`, then it will move back to the current working directory.)
+    change the to the previous directory and if [path] is `~`, then it will move back to the main directory.)
+![image](https://user-images.githubusercontent.com/122485613/215642539-916041cf-eb8e-42de-8577-0b66d5fd7d9d.png)
