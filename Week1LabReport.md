@@ -15,6 +15,6 @@ CSE15L account.
 - A few messages will appear and at the very end, it will ask `Are you sure you want to continue connecting (yes/no/[fingerprint])?` in where 
 you will type `yes` in the command window.
 - Then you have successfully login and your screen should look like this:
-![Image](VSCode.pdf)
+![Image]([VSCode.pdf](https://github.com/lplums/cse15l-lab-reports/blob/main/VSCode.pdf))
 ## Step 4: Testing Commands
 - Test out the some of commands such as `cd`, `ls`, `mkdir`, and `cp`.
