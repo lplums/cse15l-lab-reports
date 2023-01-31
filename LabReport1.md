@@ -19,8 +19,9 @@ you will type `yes` in the command window.
 ## Step 4: Testing Commands
 - Test out the some of commands such as `pwd`, `mkdir`, `ls`, and `cd` and see what each does.
 - You should see that:
-    * `pwd` stands for "Print Working Directory" and prints out the current working directory
-    * `mkdir [path]`stands for "Make Directory" and creates a new directory from thr given path
-    * `ls [path]` stands for "list" and prints out all the files and folders in the given path (if [path] is empty, prints
-    from the current directory)
-    * `cd [path]` stands for "Change Directory" and is used to 
+    * `pwd` stands for "Print Working Directory" and prints out the current working directory.
+    * `mkdir [path]`stands for "Make Directory" and creates a new directory from the given path.
+    * `ls [path]` stands for "list" and prints out all the files and folders in the given path. (If [path] is empty, then it prints
+    from the current directory.)
+    * `cd [path]` stands for "Change Directory" and is used to transiton through directories. (Bonus: If [path] is `..` then it will
+    change the to the previous directory and if [path] is `~`, then it will move back to the current working directory.)
