@@ -15,3 +15,21 @@ Before
     }
     return sum / (arr.length - 1);
   }`
+  
+After:
+`static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    int min = 0;
+    for(int i = 0; i < arr.length; i++) {
+      if(arr[i] < lowest) { lowest = arr[i]; min = i;}
+    }
+    double sum = 0;
+    for(int i = 0; i < arr.length; i++) {
+      if(i != min) { sum += arr[i]; }
+    }
+    return sum / (arr.length - 1);
+  }`
+  
+  ## Part 3:
+  
