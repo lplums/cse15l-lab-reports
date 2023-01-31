@@ -72,7 +72,6 @@ static double averageWithoutLowest(double[] arr) {
     return sum / (arr.length - 1);
   }
   ```
-  
   ## Part 3:
   During the lab on week 2 and covered in Part 1, I found it quite interesting that you can create essentially your own website on your local
   computer or a server with multiplee computers. I never knew how easy it could be to create a URL and read the path in order to manipulate
