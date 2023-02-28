@@ -50,10 +50,12 @@ This command `grep -l <pattern> <filename(s)>` returns the file(s) that contain 
 
 Examples:
 
-In the directory `written_2`, we just want to know which file contains 
+We can put enter multiple files and this command will return which files contain this specified pattern.
 ```
-$ grep -l
+$ grep -l Vallarta travel_guides/berlitz2/Vallarta-History.txt travel_guides/berlitz2/Cuba-History.txt
+travel_guides/berlitz2/Vallarta-History.txt
 ```
+In this current directory, `written_2`, we can use the command `r` to recursively find the file that contains this pattern, "Lucayans" without naming all the files (very useful!).
 ```
 $ grep -rl Lucayans
 travel_guides/berlitz2/Bahamas-History.txt
@@ -62,9 +64,29 @@ Source: ChatGPT and https://swcarpentry.github.io/shell-novice/07-find/index.htm
 ### Option 4: `-v`
 This interesting command `grep -v <pattern> <filename(s)>` inverts the search, in other words outputs the lines where the pattern was **NOT** detected.
 
-Examples:\
-In the directory `written_2`
+Examples:
+
+Suppose we want the lines in the file `Nepal-History.txt` that **do not** contain the word "the" and we are in the current directory `written_2`.
 ```
-$ grep -v 
+$ grep -v the travel_guides/berlitz2/Nepal-History.txt
+
+
+
+
+A Brief HistorY
+Unity and Fragmentation
+Unification
+Modern Times
+Religions of Nepal
+Hinduism
+Buddhism
+
+
+
+```
+We can also combine commands such as `l` with `-v` to find the files that do not contain the pattern.
+```
+$ grep -l Vallarta travel_guides/berlitz2/Vallarta-History.txt travel_guides/berlitz2/Cuba-History.txt
+travel_guides/berlitz2/Cuba-History.txt
 ```
 Source: ChatGPT and https://swcarpentry.github.io/shell-novice/07-find/index.html
