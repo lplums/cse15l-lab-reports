@@ -1,26 +1,31 @@
 # Lab Report 3
 ## Helpful and Interesting Option Commands for `grep`:
 ### Option 1: `-c`
-This command `grep -c <pattern> <filename(s)>`
+This command `grep -c <pattern> <filename(s)>` returns the number of times this pattern is found in the file(s).
 
 Examples:\
-In the directory `Docsearch`
+In the directory `written_2`
 ```
-$ grep -c 
-3
+$ grep -c history travel_guides/berlitz2/Vallarta-History.txt
+4
 ```
+```
+$ ls| grep -c travel
+1
+```
+Source: ChatGPT and https://swcarpentry.github.io/shell-novice/07-find/index.html
 
 ### Option 2: `-r`
 This helpful command `grep -r <pattern> <directory>` recursively searches for the pattern in each file belonging in the directory and its subdirectories (if they exist) and outputs the line where the pattern was detected.
 
-In the directory `Docsearch`
+In the directory `written_2`
 ```
 $ grep -r 
 ```
 ### Option 3: `-l`
 This command `grep -l <pattern> <filename(s)>` returns the file(s) that contain this pattern
 
-In the directory `Docsearch`
+In the directory `written_2`
 ```
 $ grep -l
 ```
@@ -29,4 +34,6 @@ $ grep -l
 This interesting command `grep -v <pattern> <filename(s)>` inverts the search, in other words outputs the lines where the pattern was NOT detected.
 
 Examples:\
-In the directoru
+In the directory `written_2`
+```
+$ grep -v 
