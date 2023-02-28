@@ -18,9 +18,15 @@ In the directory `Docsearch`
 $ grep -r 
 ```
 ### Option 3: `-l`
-This command `grep -l <pattern> <filename(s)>`
+This command `grep -l <pattern> <filename(s)>` returns the file(s) that contain this pattern
 
 In the directory `Docsearch`
+```
+$ grep -l
+```
 
 ### Option 4: `-v`
 This interesting command `grep -v <pattern> <filename(s)>` inverts the search, in other words outputs the lines where the pattern was NOT detected.
+
+Examples:\
+In the directoru
