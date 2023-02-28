@@ -9,6 +9,8 @@ In the directory `written_2`
 $ grep -c history travel_guides/berlitz2/Vallarta-History.txt
 4
 ```
+
+We can also use `-c` on the current directory by adding `ls|` in the front and it will search for the pattern in current files and subdirectories in the current directory. For example, the current directory `written_2` has two subdirectories, `non-fiction` and `travel_guides`.
 ```
 $ ls| grep -c travel
 1
@@ -22,6 +24,7 @@ In the directory `written_2`
 ```
 $ grep -r 
 ```
+Source: ChatGPT and https://swcarpentry.github.io/shell-novice/07-find/index.html
 ### Option 3: `-l`
 This command `grep -l <pattern> <filename(s)>` returns the file(s) that contain this pattern
 
@@ -29,7 +32,7 @@ In the directory `written_2`
 ```
 $ grep -l
 ```
-
+Source: ChatGPT and https://swcarpentry.github.io/shell-novice/07-find/index.html
 ### Option 4: `-v`
 This interesting command `grep -v <pattern> <filename(s)>` inverts the search, in other words outputs the lines where the pattern was NOT detected.
 
@@ -37,3 +40,5 @@ Examples:\
 In the directory `written_2`
 ```
 $ grep -v 
+```
+Source: ChatGPT and https://swcarpentry.github.io/shell-novice/07-find/index.html
