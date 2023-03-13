@@ -35,7 +35,7 @@ In vim:
 ![image](https://user-images.githubusercontent.com/122485613/224840452-68666bdd-4e00-4edf-b74c-d50c57f42095.png)
 
 The `vim ListExamples.java` will be 11 up in the command history. I found `vim` to be the fastest as I can move the cursor
-with my mouse.
+with my mouse and change index1 to index2.
 
 ### Step 5: Running the test, expecting all test passed
 keys pressed: `<up><up><up><enter>` , `<up><up><up><enter>`
