@@ -30,6 +30,10 @@ keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>` In vim: `<de
 
 ![image](https://user-images.githubusercontent.com/122485613/224839792-f70b3303-a12f-44ac-a655-e4671b448e67.png)
 
+In vim:
+
+![image](https://user-images.githubusercontent.com/122485613/224840452-68666bdd-4e00-4edf-b74c-d50c57f42095.png)
+
 The `vim ListExamples.java` will be 11 up in the command history. I found `vim` to be the fastest as I can move the cursor
 with my mouse.
 
